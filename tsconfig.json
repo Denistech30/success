@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es2016", // You can keep this or update it too, e.g., to "es2017"
+    "lib": ["es2017", "dom"], // <--- Changed "es2016" to "es2017" here
+    "jsx": "react-jsx",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true
+  }
+}
